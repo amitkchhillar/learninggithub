@@ -1,10 +1,19 @@
+
 /**
  * basic
  */
 public class basic {
-    public static void main (String a[])
+    /**
+     * @param args
+     */
+    public static void main (String args[])
     {
-        System.out.println("Hello World");
+       double x =6;
+       double y =6;
+       boolean result = x == y;
+       System.out.println(result);
+
+        
     }
 }
 
